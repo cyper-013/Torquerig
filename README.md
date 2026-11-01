@@ -35,7 +35,3 @@ decoding, i.e. 4 x the encoder's PPR. A 600 PPR encoder therefore uses `2400` (t
 Settings (wheel range, FFB gains, axis limits, button mapping) can be changed with serial commands or
 with the original [AFFBWheel GUI](https://github.com/vsulako/AFFBWHeelGUI). The firmware still
 reports the handshake id `AFFBW` so that the GUI recognizes the device.
-
-## License
-
-MIT, same as the original project. Keep the existing copyright notices and add your own in `NOTICE.md`.
