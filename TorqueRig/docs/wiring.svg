@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="600.0" y="30" font-size="18" text-anchor="middle" font-weight="bold" fill="#222">TorqueRig wiring: Arduino Pro Micro, TB6612FNG, encoder, pedals and button matrix</text>
+<text x="600.0" y="50" font-size="12" text-anchor="middle" font-weight="normal" fill="#222">5V circles join the Pro Micro VCC pin; GND circles join the Pro Micro GND pin.</text>
+<rect x="430" y="130" width="300" height="350" rx="8" fill="#e8f0e0" stroke="#2d5a1e" stroke-width="3"/>
+<text x="580.0" y="164" font-size="17" text-anchor="middle" font-weight="bold" fill="#222">Arduino Pro Micro</text>
+<text x="580.0" y="184" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">(ATmega32U4, 5 V, same chip as a Leonardo)</text>
+<line x1="520" y1="130" x2="520" y2="100" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="520" cy="130" r="4" fill="#c0392b"/>
+<circle cx="520" cy="100" r="5" fill="#fff" stroke="#c0392b" stroke-width="2.5"/>
+<text x="520" y="91" font-size="12" text-anchor="middle" font-weight="bold" fill="#c0392b">5V</text>
+<text x="520" y="146" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">VCC</text>
+<line x1="640" y1="130" x2="640" y2="100" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="640" cy="130" r="4" fill="#222"/>
+<circle cx="640" cy="100" r="5" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<text x="640" y="91" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">GND</text>
+<text x="640" y="146" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">GND</text>
+<circle cx="430" cy="200" r="4" fill="#1f4e9c"/>
+<text x="440" y="204" font-size="13" text-anchor="start" font-weight="bold" fill="#222">D0</text>
+<circle cx="430" cy="240" r="4" fill="#1f4e9c"/>
+<text x="440" y="244" font-size="13" text-anchor="start" font-weight="bold" fill="#222">D1</text>
+<circle cx="430" cy="330" r="4" fill="#1f4e9c"/>
+<text x="440" y="334" font-size="13" text-anchor="start" font-weight="bold" fill="#222">A0</text>
+<circle cx="430" cy="386" r="4" fill="#1f4e9c"/>
+<text x="440" y="390" font-size="13" text-anchor="start" font-weight="bold" fill="#222">A1</text>
+<circle cx="430" cy="442" r="4" fill="#1f4e9c"/>
+<text x="440" y="446" font-size="13" text-anchor="start" font-weight="bold" fill="#222">A2</text>
+<rect x="90" y="150" width="160" height="120" rx="6" fill="#fff7e0" stroke="#7a5a00" stroke-width="2"/>
+<text x="170" y="176" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">Rotary encoder</text>
+<text x="170" y="194" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">600 PPR, 5 V</text>
+<text x="170" y="210" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">(Z wire not used)</text>
+<line x1="65" y1="235" x2="90" y2="235" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="60" cy="235" r="5" fill="#fff" stroke="#c0392b" stroke-width="2.5"/>
+<text x="50" y="239" font-size="12" text-anchor="end" font-weight="bold" fill="#c0392b">5V</text>
+<line x1="65" y1="255" x2="90" y2="255" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="60" cy="255" r="5" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<text x="50" y="259" font-size="12" text-anchor="end" font-weight="bold" fill="#222">GND</text>
+<text x="98" y="238" font-size="11" text-anchor="start" font-weight="bold" fill="#222">+V</text>
+<text x="98" y="258" font-size="11" text-anchor="start" font-weight="bold" fill="#222">0 V</text>
+<path d="M 250 200 H 330 A 10 10 0 0 1 350 200 H 430" fill="none" stroke="#1f4e9c" stroke-width="2"/>
+<line x1="250" y1="240" x2="430" y2="240" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<text x="256" y="194" font-size="12" text-anchor="start" font-weight="bold" fill="#222">A</text>
+<text x="256" y="234" font-size="12" text-anchor="start" font-weight="bold" fill="#222">B</text>
+<circle cx="330" cy="200" r="4" fill="#1f4e9c"/>
+<line x1="330" y1="200" x2="330" y2="166" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<rect x="324" y="140" width="12" height="26" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="342" y="157.0" font-size="11" text-anchor="start" font-weight="normal" fill="#222">4.7 k&#937;</text>
+<line x1="330" y1="140" x2="330" y2="128" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="330" cy="125" r="5" fill="#fff" stroke="#c0392b" stroke-width="2.5"/>
+<text x="340" y="129" font-size="12" text-anchor="start" font-weight="bold" fill="#c0392b">5V</text>
+<circle cx="330" cy="240" r="4" fill="#1f4e9c"/>
+<line x1="330" y1="240" x2="330" y2="252" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<rect x="324" y="252" width="12" height="26" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="342" y="269.0" font-size="11" text-anchor="start" font-weight="normal" fill="#222">4.7 k&#937;</text>
+<line x1="330" y1="278" x2="330" y2="290" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="330" cy="293" r="5" fill="#fff" stroke="#c0392b" stroke-width="2.5"/>
+<text x="340" y="297" font-size="12" text-anchor="start" font-weight="bold" fill="#c0392b">5V</text>
+<rect x="100" y="308" width="150" height="44" rx="6" fill="#fff7e0" stroke="#7a5a00" stroke-width="2"/>
+<text x="175" y="327" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">Throttle pot</text>
+<text x="175" y="343" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">10 k&#937;</text>
+<line x1="75" y1="318" x2="100" y2="318" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="70" cy="318" r="5" fill="#fff" stroke="#c0392b" stroke-width="2.5"/>
+<text x="60" y="322" font-size="12" text-anchor="end" font-weight="bold" fill="#c0392b">5V</text>
+<line x1="75" y1="342" x2="100" y2="342" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="70" cy="342" r="5" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<text x="60" y="346" font-size="12" text-anchor="end" font-weight="bold" fill="#222">GND</text>
+<line x1="250" y1="330" x2="430" y2="330" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<text x="256" y="325" font-size="10" text-anchor="start" font-weight="normal" fill="#222">wiper</text>
+<rect x="100" y="364" width="150" height="44" rx="6" fill="#fff7e0" stroke="#7a5a00" stroke-width="2"/>
+<text x="175" y="383" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">Brake pot</text>
+<text x="175" y="399" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">10 k&#937;</text>
+<line x1="75" y1="374" x2="100" y2="374" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="70" cy="374" r="5" fill="#fff" stroke="#c0392b" stroke-width="2.5"/>
+<text x="60" y="378" font-size="12" text-anchor="end" font-weight="bold" fill="#c0392b">5V</text>
+<line x1="75" y1="398" x2="100" y2="398" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="70" cy="398" r="5" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<text x="60" y="402" font-size="12" text-anchor="end" font-weight="bold" fill="#222">GND</text>
+<line x1="250" y1="386" x2="430" y2="386" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<text x="256" y="381" font-size="10" text-anchor="start" font-weight="normal" fill="#222">wiper</text>
+<rect x="100" y="420" width="150" height="44" rx="6" fill="#fff7e0" stroke="#7a5a00" stroke-width="2"/>
+<text x="175" y="439" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">Clutch pot</text>
+<text x="175" y="455" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">10 k&#937;</text>
+<line x1="75" y1="430" x2="100" y2="430" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="70" cy="430" r="5" fill="#fff" stroke="#c0392b" stroke-width="2.5"/>
+<text x="60" y="434" font-size="12" text-anchor="end" font-weight="bold" fill="#c0392b">5V</text>
+<line x1="75" y1="454" x2="100" y2="454" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="70" cy="454" r="5" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<text x="60" y="458" font-size="12" text-anchor="end" font-weight="bold" fill="#222">GND</text>
+<line x1="250" y1="442" x2="430" y2="442" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<text x="256" y="437" font-size="10" text-anchor="start" font-weight="normal" fill="#222">wiper</text>
+<rect x="880" y="170" width="170" height="280" rx="6" fill="#e6eefc" stroke="#1f4e9c" stroke-width="2"/>
+<text x="965.0" y="436" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">TB6612FNG driver</text>
+<line x1="730" y1="200" x2="880" y2="200" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="730" cy="200" r="4" fill="#1f4e9c"/>
+<text x="720" y="204" font-size="13" text-anchor="end" font-weight="bold" fill="#222">D9</text>
+<text x="888" y="204" font-size="12" text-anchor="start" font-weight="bold" fill="#222">PWMA</text>
+<line x1="730" y1="236" x2="880" y2="236" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="730" cy="236" r="4" fill="#1f4e9c"/>
+<text x="720" y="240" font-size="13" text-anchor="end" font-weight="bold" fill="#222">D10</text>
+<text x="888" y="240" font-size="12" text-anchor="start" font-weight="bold" fill="#222">PWMB</text>
+<line x1="730" y1="292" x2="880" y2="292" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="730" cy="292" r="4" fill="#1f4e9c"/>
+<text x="720" y="296" font-size="13" text-anchor="end" font-weight="bold" fill="#222">D4</text>
+<text x="888" y="296" font-size="12" text-anchor="start" font-weight="bold" fill="#222">AIN1</text>
+<line x1="730" y1="322" x2="880" y2="322" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="730" cy="322" r="4" fill="#1f4e9c"/>
+<text x="720" y="326" font-size="13" text-anchor="end" font-weight="bold" fill="#222">D5</text>
+<text x="888" y="326" font-size="12" text-anchor="start" font-weight="bold" fill="#222">AIN2</text>
+<line x1="730" y1="352" x2="880" y2="352" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="730" cy="352" r="4" fill="#1f4e9c"/>
+<text x="720" y="356" font-size="13" text-anchor="end" font-weight="bold" fill="#222">D6</text>
+<text x="888" y="356" font-size="12" text-anchor="start" font-weight="bold" fill="#222">BIN1</text>
+<line x1="730" y1="382" x2="880" y2="382" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="730" cy="382" r="4" fill="#1f4e9c"/>
+<text x="720" y="386" font-size="13" text-anchor="end" font-weight="bold" fill="#222">D7</text>
+<text x="888" y="386" font-size="12" text-anchor="start" font-weight="bold" fill="#222">BIN2</text>
+<line x1="730" y1="412" x2="880" y2="412" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="730" cy="412" r="4" fill="#1f4e9c"/>
+<text x="720" y="416" font-size="13" text-anchor="end" font-weight="bold" fill="#222">D8</text>
+<text x="888" y="416" font-size="12" text-anchor="start" font-weight="bold" fill="#222">STBY</text>
+<line x1="915" y1="90" x2="915" y2="170" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+<line x1="1015" y1="90" x2="1015" y2="170" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<rect x="880" y="40" width="170" height="50" rx="6" fill="#fff0f0" stroke="#8b1a1a" stroke-width="2"/>
+<text x="965" y="60" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">Motor supply</text>
+<text x="965" y="77" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">(match motor rating)</text>
+<text x="905" y="106" font-size="14" text-anchor="end" font-weight="bold" fill="#c0392b">+</text>
+<text x="1025" y="106" font-size="14" text-anchor="start" font-weight="bold" fill="#222">&#8722;</text>
+<text x="915" y="186" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">VM</text>
+<text x="965" y="186" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">VCC</text>
+<text x="1015" y="186" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">GND</text>
+<line x1="965" y1="170" x2="965" y2="138" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="965" cy="134" r="5" fill="#fff" stroke="#c0392b" stroke-width="2.5"/>
+<text x="965" y="125" font-size="12" text-anchor="middle" font-weight="bold" fill="#c0392b">5V</text>
+<line x1="1015" y1="130" x2="1065" y2="130" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="1070" cy="130" r="5" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<text x="1080" y="134" font-size="12" text-anchor="start" font-weight="bold" fill="#222">GND</text>
+<line x1="915" y1="450" x2="915" y2="491" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<text x="915" y="464" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">AO1</text>
+<line x1="945" y1="450" x2="945" y2="491" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<text x="945" y="464" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">AO2</text>
+<line x1="1000" y1="450" x2="1000" y2="491" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<text x="1000" y="464" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">BO1</text>
+<line x1="1030" y1="450" x2="1030" y2="491" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<text x="1030" y="464" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">BO2</text>
+<circle cx="930" cy="515" r="28" fill="#fdecec" stroke="#8b1a1a" stroke-width="2"/>
+<text x="930" y="512" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">RF300A</text>
+<text x="930" y="527" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">Motor 1</text>
+<circle cx="1015" cy="515" r="28" fill="#fdecec" stroke="#8b1a1a" stroke-width="2"/>
+<text x="1015" y="512" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">RF300A</text>
+<text x="1015" y="527" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">Motor 2</text>
+<text x="250" y="640" font-size="15" text-anchor="middle" font-weight="bold" fill="#222">Button matrix (3 x 3)</text>
+<text x="450" y="472" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">A3</text>
+<line x1="450" y1="480" x2="450" y2="752" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="450" cy="480" r="4" fill="#1f4e9c"/>
+<text x="470" y="472" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">D3</text>
+<line x1="470" y1="480" x2="470" y2="686" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="470" cy="480" r="4" fill="#1f4e9c"/>
+<text x="490" y="472" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">D2</text>
+<line x1="490" y1="480" x2="490" y2="620" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="490" cy="480" r="4" fill="#1f4e9c"/>
+<text x="540" y="472" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">D14</text>
+<line x1="540" y1="480" x2="540" y2="775" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="540" cy="480" r="4" fill="#1f4e9c"/>
+<text x="620" y="472" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">D15</text>
+<line x1="620" y1="480" x2="620" y2="775" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="620" cy="480" r="4" fill="#1f4e9c"/>
+<text x="700" y="472" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">D16</text>
+<line x1="700" y1="480" x2="700" y2="775" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<circle cx="700" cy="480" r="4" fill="#1f4e9c"/>
+<line x1="450" y1="752" x2="780" y2="752" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<line x1="470" y1="686" x2="780" y2="686" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<line x1="490" y1="620" x2="780" y2="620" stroke="#1f4e9c" stroke-width="2" stroke-linecap="round"/>
+<text x="788" y="624" font-size="11" text-anchor="start" font-weight="normal" fill="#222">row D2</text>
+<text x="788" y="690" font-size="11" text-anchor="start" font-weight="normal" fill="#222">row D3</text>
+<text x="788" y="756" font-size="11" text-anchor="start" font-weight="normal" fill="#222">row A3</text>
+<circle cx="540" cy="620" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="540" y="624" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">1</text>
+<circle cx="540" cy="686" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="540" y="690" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">2</text>
+<circle cx="540" cy="752" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="540" y="756" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">3</text>
+<circle cx="620" cy="620" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="620" y="624" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">4</text>
+<circle cx="620" cy="686" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="620" y="690" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">5</text>
+<circle cx="620" cy="752" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="620" y="756" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">6</text>
+<circle cx="700" cy="620" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="700" y="624" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">7</text>
+<circle cx="700" cy="686" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="700" y="690" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">8</text>
+<circle cx="700" cy="752" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="700" y="756" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">9</text>
+<rect x="860" y="590" width="310" height="190" rx="6" fill="#f7f7f7" stroke="#888" stroke-width="1.5"/>
+<text x="875" y="610" font-size="13" text-anchor="start" font-weight="bold" fill="#222">Notes</text>
+<text x="875" y="630" font-size="11" text-anchor="start" font-weight="normal" fill="#222">Encoder A and B use 4.7 k&#937; pull-ups to 5 V</text>
+<text x="875" y="648" font-size="11" text-anchor="start" font-weight="normal" fill="#222">(needed for open-collector encoders; check yours).</text>
+<text x="875" y="666" font-size="11" text-anchor="start" font-weight="normal" fill="#222">Motor supply minus, TB6612FNG GND and Pro Micro</text>
+<text x="875" y="684" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GND must be joined (common ground).</text>
+<text x="875" y="702" font-size="11" text-anchor="start" font-weight="normal" fill="#222">Motor 1 on AO1/AO2 and motor 2 on BO1/BO2 are</text>
+<text x="875" y="720" font-size="11" text-anchor="start" font-weight="normal" fill="#222">driven together; mount or wire them to push the</text>
+<text x="875" y="738" font-size="11" text-anchor="start" font-weight="normal" fill="#222">same way.</text>
+<text x="875" y="756" font-size="11" text-anchor="start" font-weight="normal" fill="#222">Add a bulk capacitor across the motor supply.</text>
+<text x="600" y="820" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">Button numbers are as seen by the firmware. Optional: a 1N4148 diode in series with each button (anode on the row side) prevents ghosting.</text>
+<text x="600" y="838" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">Columns D14, D15, D16 are scanned (driven low one at a time); rows D2, D3, A3 are read with pull-ups.</text>
+<text x="600" y="856" font-size="11" text-anchor="middle" font-weight="normal" fill="#222">Pro Micro pin names: D0 = RX, D1 = TX; D14, D15, D16 = MISO, SCK, MOSI.</text>
+</svg>
